@@ -38,6 +38,7 @@ body{
   
 .nav-link {
         font-weight: 600;
+        line-height: 1.5;
         color:var(--title-text-color)
 }
 
@@ -122,13 +123,11 @@ body{
         font-weight: 600;
         font-size: 20px;
         line-height: 1.2;
-        letter-spacing: 0.02em;
         color: var(--title-text-color);
 }
 
 .description{
         line-height: 1.5;
-        letter-spacing: 0.02em;
         color: var(--primary-text-color);
 }
 
@@ -149,10 +148,11 @@ body{
 }
 
 .footer-copy {
-        color:var(--footer-text-color)
+            line-height: 1.5;
+            color:var(--footer-text-color)
 }
 .footer-logo{
-        font-family: 'Raleway';
+            font-family: 'Raleway';
             font-weight: 800;
             font-size: 18px;
             line-height: 1.33;
